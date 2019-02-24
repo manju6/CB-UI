@@ -1,0 +1,171 @@
+/* form button bg */
+
+.searchform {
+    max-width: 1800px;
+    margin: auto;
+}
+
+
+/* digital button bg */
+
+.btn-circle {
+    width: 60px;
+    height: 60px;
+    padding: 1px 1px;
+    margin-right: 10px;
+    border-radius: 27px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 1.42857;
+}
+
+
+/* Make the Round Card  */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 0.1rem;
+}
+
+
+/* Card Share icon  */
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.card__share {
+    float: right;
+    position: relative;
+    margin-top: -42px;
+}
+
+.card__social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    width: 160px;
+    transform: translateZ(0);
+    transform: translateX(0px);
+    transition: transform 0.35s ease;
+}
+
+.card__social--active {
+    visibility: visible;
+    /*z-index: 3;*/
+    transform: translateZ(0);
+    transform: translateX(-48px);
+    transition: transform 0.35s ease;
+}
+
+.share-toggle {
+    z-index: 2;
+}
+
+.share-toggle:before {
+    content: "\f1e0";
+    font-family: 'FontAwesome';
+    color: #3498db;
+}
+
+.share-toggle.share-expanded:before {
+    content: "\f00d";
+}
+
+.share-icon {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    outline: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.share-icon:hover,
+.share-icon:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #00abe3;
+}
+
+.googleplus {
+    background-color: #d3492c;
+}
+
+.facebook,
+.twitter,
+.googleplus {
+    color: #fff;
+}
+
+.facebook:hover,
+.twitter:hover,
+.googleplus:hover {
+    color: #eee;
+}
+
+.chart-bg--btn-circle {
+    background: url('http://www.bluthemes.com/themes/realm/assets/img/dotted.png') repeat;
+}
+
+#barbarian {
+    border-radius: 0px 0px 4px 4px;
+    background: #EC9B3B;
+    padding: 0px;
+}
+
+#archer {
+    border-radius: 0px 0px 4px 4px;
+    background: #EE5487;
+    padding: 0px;
+}
+
+#goblin {
+    border-radius: 0px 0px 4px 4px;
+    background: #82BB30;
+    padding: 0px;
+}
+
+#wizard {
+    border-radius: 0px 0px 4px 4px;
+    background: #4FACFF;
+    padding: 0px;
+}
+
+#info {
+    border-radius: 0px 0px 4px 4px;
+    background: #117a8b;
+    padding: 0px;
+}
